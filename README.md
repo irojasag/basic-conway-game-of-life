@@ -29,7 +29,7 @@ npm install
 Then run it with npm
 
 ```
-npm run start
+npm run dev
 ```
 
 The difference is that doing it in this way you are using [Nodemon](https://www.npmjs.com/package/nodemon) so the script is executed every time you save changes on the project and you are allowed to see the changes pretty fast.

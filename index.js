@@ -87,7 +87,7 @@ const gameOfLife = (map) => {
 };
 
 const main = () => {
-  let length = 16;
+  let length = 32;
   const indexOfArg = process.argv.indexOf("-l");
   if (indexOfArg !== -1) {
     length = Number(process.argv[indexOfArg + 1]) || length;
