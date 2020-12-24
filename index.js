@@ -79,7 +79,7 @@ const gameOfLife = (map) => {
       } else {
         // becomes a live cell as if by reproduction.
         if (countOfNeighbours === 3) {
-          map[i][j] = 0;
+          map[i][j] = 1;
         }
       }
     }
